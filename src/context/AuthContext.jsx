@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
   const login = (email, password) => {
     if (email && password) {
       setState({
-        user: { id: 1, name: 'Rahul Sharma', email, phone: '9876543210' },
+        user: { id: 1, name: 'Aruna', email, phone: '1234567890' },
         isAuthenticated: true
       });
       return true;
